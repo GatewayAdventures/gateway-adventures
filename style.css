@@ -1,0 +1,247 @@
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FF6F61;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #E65A50;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero .subtitle {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* About Us Section */
+.about {
+  padding: 50px 20px;
+  background-color: #F9F9F9;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Activities Section */
+.activities {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.activity-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.activity-card h3 {
+  margin: 15px 0 10px;
+}
+
+.activity-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 20px;
+  background-color: #E0F2E9;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card .author {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Call-to-Action Section */
+.cta {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #FF6F61;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 0 10px;
+}
+
+/* Sailing Hero Section */
+.sailing-hero {
+  background-image: url('images/sailing-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.sailing-hero .hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.sailing-hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.sailing-hero .subtitle {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Sailing Options Section */
+.sailing-options {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.option-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.option-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.option-card h3 {
+  margin: 15px 0 10px;
+}
+
+.option-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.option-card .btn {
+  margin-top: 15px;
+}
